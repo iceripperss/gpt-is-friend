@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
 import axios from 'axios';
 import './App.css';
-import {apiKey} from "./constant";
+// import {apiKey} from "./constant";
 
+const apiKey ="invalid";
 export const ChatComponent = () => {
     const [response, setResponse] = useState('');
     const [inputState, setInputState] = useState('');
