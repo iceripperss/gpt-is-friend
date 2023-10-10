@@ -1,1 +1,1 @@
-export const apiKey = "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";
+export const apiKey = process.env.REACT_APP_NOT_SECRET_CODE;
